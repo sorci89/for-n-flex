@@ -35,13 +35,13 @@ function loadEvent() {
   */
 
   const root = document.getElementById("root");
-  const list = generateArray(600);
+  const list = generateArray(20);
 
   console.log(list);
 
   if (list[0] !== "Error") {
       for (const item of list) {
-          root.insertAdjacentHTML("beforeend", `<div>${item}</div>`)
+          root.insertAdjacentHTML("beforeend", `<div id="divCard"><span>${item}</span></div>`)
       }
   }
 
@@ -65,3 +65,14 @@ arrowfunction aláhúzással () helyett
 });
 
 */
+
+function lengthCount(){
+    const numberLength = "number";
+
+    for (let i = 0; i < list.length; index++) {
+
+        if (list[i] ) {
+            
+        }
+    }
+}
